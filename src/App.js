@@ -1,13 +1,13 @@
 import React, {Component} from 'react';
 import './App.css';
-import firebase from "firebase";
+//mport firebase from "firebase";
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Header from './components/layout/Header'
 import Todos from './components/Todos'
 import AddTodo from './components/AddTodo'
 import About from './components/pages/About'
 import uuid from 'uuid';
-//import {throwStatement} from '@babel/types';
+import {throwStatement} from '@babel/types';
 
 
 class App extends Component {
